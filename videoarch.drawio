@@ -82,6 +82,59 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="1040" width="550" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-23">
+          <mxGeometry width="550" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-25" value="Renderer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-23">
+          <mxGeometry width="550" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1030" width="500" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-35" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1030" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-37" value="EmbeddedCompositionFrameSink" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1770" width="1060" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-50" value="Apollo Service Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1770" width="1060" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-26" value="EmbeddedCompositionFrameSinkProxy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480.00333333333333" y="1919.9966666666667" width="297.91666666666663" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-26" target="ApiQ-BtPgv3KfkFpJTZq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-48" value="MailBox-&amp;gt;CompositorFrame" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-39">
+          <mxGeometry x="-0.4031" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-24" target="ApiQ-BtPgv3KfkFpJTZq-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="1730" />
+              <mxPoint x="629" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-47" value="StartApollo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-46">
+          <mxGeometry x="-0.7087" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-51" value="NamePipeServer::Connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-46">
+          <mxGeometry x="-0.039" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
