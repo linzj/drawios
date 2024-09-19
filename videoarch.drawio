@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.8">
   <diagram name="第 1 页" id="LiPbOftGQbgrzLmKm-nx">
-    <mxGraphModel dx="2066" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-10" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-10" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="120" y="350" width="550" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-10">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="ApiQ-BtPgv3KfkFpJTZq-10" vertex="1">
           <mxGeometry width="550" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-9" value="Renderer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-10">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-9" value="Renderer" style="rounded=0;whiteSpace=wrap;html=1;" parent="ApiQ-BtPgv3KfkFpJTZq-10" vertex="1">
           <mxGeometry width="550" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-16" value="EmbeddedCompositionFrameSinkProxy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-10">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-16" value="EmbeddedCompositionFrameSinkProxy" style="whiteSpace=wrap;html=1;rounded=0;" parent="ApiQ-BtPgv3KfkFpJTZq-10" vertex="1">
           <mxGeometry x="141.04333333333332" y="469.9966666666666" width="297.91666666666663" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-1" target="ApiQ-BtPgv3KfkFpJTZq-2">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-1" target="ApiQ-BtPgv3KfkFpJTZq-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-4" value="OnFrameWithInfoAvailable-&amp;gt;Mailbox" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-3">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-4" value="OnFrameWithInfoAvailable-&amp;gt;Mailbox" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ApiQ-BtPgv3KfkFpJTZq-3" vertex="1" connectable="0">
           <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&#xa;&lt;a style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; border-color: var(--border); color: inherit; text-decoration: none; font-family: monospace; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(255, 255, 255);&quot; data-key=&quot;89&quot; href=&quot;https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/media/android/stream_texture_factory.cc;drc=a150b50c0ff706af12c449c7fccd3cf2745e2061;bpv=1;bpt=1;l=84?gsn=OnFrameAvailable&amp;amp;gs=KYTHE%3A%2F%2Fkythe%3A%2F%2Fchromium.googlesource.com%2Fcodesearch%2Fchromium%2Fsrc%2F%2Fmain%3Flang%3Dc%252B%252B%3Fpath%3Dcontent%2Frenderer%2Fmedia%2Fandroid%2Fstream_texture_factory.cc%23bQwde8pxGFe8QK5NosUgznehglTQKpOsqDOtcCwnv28&quot; class=&quot;xrefs-decoration&quot;&gt;OnFrameAvailable&lt;/a&gt;&#xa;&#xa;" link="&#xa;&lt;a style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; border-color: var(--border); color: inherit; text-decoration: none; font-family: monospace; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(255, 255, 255);&quot; data-key=&quot;89&quot; href=&quot;https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/media/android/stream_texture_factory.cc;drc=a150b50c0ff706af12c449c7fccd3cf2745e2061;bpv=1;bpt=1;l=84?gsn=OnFrameAvailable&amp;amp;gs=KYTHE%3A%2F%2Fkythe%3A%2F%2Fchromium.googlesource.com%2Fcodesearch%2Fchromium%2Fsrc%2F%2Fmain%3Flang%3Dc%252B%252B%3Fpath%3Dcontent%2Frenderer%2Fmedia%2Fandroid%2Fstream_texture_factory.cc%23bQwde8pxGFe8QK5NosUgznehglTQKpOsqDOtcCwnv28&quot; class=&quot;xrefs-decoration&quot;&gt;OnFrameAvailable&lt;/a&gt;&#xa;&#xa;" id="ApiQ-BtPgv3KfkFpJTZq-5">
-          <mxCell style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-1" target="ApiQ-BtPgv3KfkFpJTZq-2">
+          <mxCell style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-1" target="ApiQ-BtPgv3KfkFpJTZq-2" edge="1">
             <mxGeometry relative="1" as="geometry">
               <mxPoint x="260" y="690" as="targetPoint" />
               <Array as="points">
@@ -35,34 +35,34 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-1" value="StreamTextureHost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-1" value="StreamTextureHost" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-2" target="ApiQ-BtPgv3KfkFpJTZq-16">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-2" target="ApiQ-BtPgv3KfkFpJTZq-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-20" value="MailBox" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-17">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-20" value="MailBox" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ApiQ-BtPgv3KfkFpJTZq-17" vertex="1" connectable="0">
           <mxGeometry x="-0.1916" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-2" value="VideoFrameSubmitter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-2" value="VideoFrameSubmitter" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="340" width="500" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-22" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-22" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="340" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-11" value="StreamTexture" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-11" value="StreamTexture" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="850" y="560" width="143" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-18" value="EmbeddedCompositionFrameSink" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-18" value="EmbeddedCompositionFrameSink" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="760" width="220" height="60" as="geometry" />
         </mxCell>
         <UserObject label="OnFrameWithInfoAvailable-&amp;gt;Mailbox" link="&#xa;&lt;a style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; margin: 0px; padding: 0px; box-sizing: border-box; border-color: var(--border); text-decoration-line: none; font-family: monospace; font-size: medium; text-align: start;&quot; data-key=&quot;98&quot; href=&quot;https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/media/android/stream_texture_factory.cc;drc=a150b50c0ff706af12c449c7fccd3cf2745e2061;bpv=1;bpt=1;l=90?gsn=OnFrameWithInfoAvailable&amp;amp;gs=KYTHE%3A%2F%2Fkythe%3A%2F%2Fchromium.googlesource.com%2Fcodesearch%2Fchromium%2Fsrc%2F%2Fmain%3Flang%3Dc%252B%252B%3Fpath%3Dcontent%2Frenderer%2Fmedia%2Fandroid%2Fstream_texture_factory.cc%23hpruNQi7dIm3cVIG2UPgs3AazQhBx6SGE2KFzJ-yTng&quot; class=&quot;xrefs-decoration&quot;&gt;OnFrameWithInfoAvailable&lt;/a&gt;&#xa;&#xa;" id="ApiQ-BtPgv3KfkFpJTZq-13">
-          <mxCell style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-11" target="ApiQ-BtPgv3KfkFpJTZq-1">
+          <mxCell style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-11" target="ApiQ-BtPgv3KfkFpJTZq-1" edge="1">
             <mxGeometry relative="1" as="geometry">
               <mxPoint x="860" y="450" as="targetPoint" />
               <Array as="points">
@@ -71,67 +71,76 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-16" target="ApiQ-BtPgv3KfkFpJTZq-18">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-16" target="ApiQ-BtPgv3KfkFpJTZq-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-11" target="ApiQ-BtPgv3KfkFpJTZq-1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-11" target="ApiQ-BtPgv3KfkFpJTZq-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-15" value="OnFrameAvailable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-12">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-15" value="OnFrameAvailable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ApiQ-BtPgv3KfkFpJTZq-12" vertex="1" connectable="0">
           <mxGeometry x="-0.444" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-23" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-23" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="1040" width="550" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-23">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="ApiQ-BtPgv3KfkFpJTZq-23" vertex="1">
           <mxGeometry width="550" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-25" value="Renderer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-23">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-25" value="Renderer" style="rounded=0;whiteSpace=wrap;html=1;" parent="ApiQ-BtPgv3KfkFpJTZq-23" vertex="1">
           <mxGeometry width="550" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VT69-K9v5CHWKR-Tkk89-3" value="ApolloPlayerHost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ApiQ-BtPgv3KfkFpJTZq-23">
+          <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1030" width="500" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-35" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-35" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1030" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-37" value="EmbeddedCompositionFrameSink" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-37" value="EmbeddedCompositionFrameSink" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="1450" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="1770" width="1060" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-50" value="Apollo Service Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-50" value="Apollo Service Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="1770" width="1060" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-26" value="EmbeddedCompositionFrameSinkProxy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480.00333333333333" y="1919.9966666666667" width="297.91666666666663" height="65" as="geometry" />
+        <mxCell id="VT69-K9v5CHWKR-Tkk89-4" value="ApolloPlayerImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1870" width="570" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-26" target="ApiQ-BtPgv3KfkFpJTZq-37">
+        <mxCell id="VT69-K9v5CHWKR-Tkk89-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-26" target="VT69-K9v5CHWKR-Tkk89-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-48" value="MailBox-&amp;gt;CompositorFrame" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-39">
-          <mxGeometry x="-0.4031" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="VT69-K9v5CHWKR-Tkk89-2" value="NamePipeServer::Connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VT69-K9v5CHWKR-Tkk89-1">
+          <mxGeometry x="0.7278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-11" y="144" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-24" target="ApiQ-BtPgv3KfkFpJTZq-26">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-26" value="EmbeddedCompositionFrameSinkProxy" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510.00333333333333" y="1964.9966666666667" width="297.91666666666663" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-24" target="ApiQ-BtPgv3KfkFpJTZq-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="425" y="1730" />
-              <mxPoint x="629" y="1730" />
+              <mxPoint x="661" y="1730" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-47" value="StartApollo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-46">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-47" value="StartApollo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ApiQ-BtPgv3KfkFpJTZq-46" vertex="1" connectable="0">
           <mxGeometry x="-0.7087" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-51" value="NamePipeServer::Connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApiQ-BtPgv3KfkFpJTZq-46">
-          <mxGeometry x="-0.039" y="-1" relative="1" as="geometry">
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ApiQ-BtPgv3KfkFpJTZq-26" target="ApiQ-BtPgv3KfkFpJTZq-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApiQ-BtPgv3KfkFpJTZq-48" value="MailBox-&amp;gt;CompositorFrame" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ApiQ-BtPgv3KfkFpJTZq-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.4031" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
